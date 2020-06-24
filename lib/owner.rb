@@ -14,13 +14,6 @@ class Owner
     "I am a #{@species}."
   end
 
-  def self.all
-    @@all
-  end
-
-  def self.count
-    self.count = @pets
-
-  end
+  def cats 
 
 end
