@@ -19,7 +19,7 @@ class Owner
   end
 
   def self.count
-    count = 7
+    
   end
 
 end
