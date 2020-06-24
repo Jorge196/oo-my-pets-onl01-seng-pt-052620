@@ -19,7 +19,8 @@ class Owner
   end
 
   def self.count
-    
+    count = @pets
+
   end
 
 end
