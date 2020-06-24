@@ -10,6 +10,12 @@ class Owner
     @species = "human"
   end
 
+  def cats
+    Cats.all.select do |cats|
+      cat.owner == self
+    end
+  end
+
   def say_species
     "I am a #{@species}."
   end
@@ -26,11 +32,7 @@ class Owner
     @@all.clear
   end
 
-  def cats
-    Cats.all.select do |cats|
-      cat.owner == self
-    end
-  end
+
 
 
 end
