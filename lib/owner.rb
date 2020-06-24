@@ -16,9 +16,10 @@ class Owner
 
   def self.all
     @@all
-  end 
+  end
 
-  def cats
+  def self.count
+    
   end
 
 end
